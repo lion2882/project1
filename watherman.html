@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="weathman.css">
+
+</head>
+<body>
+       <header>
+            <div id="logo">
+                <img src="weather-clipart-weather-report-3.png">
+            </div>
+                <ul id="menue">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="info.html">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="weather1.html">Sign In</a></li>
+    
+            </ul>
+       </header>
+       <div class="IN">
+           <div>
+            <h2 id="hh1">WEATHER MAN</h2>
+           
+            <select id="unitsid">
+                <option  value=""> standard  </option>
+                <option  value="metric"> metric </option>
+                <option  value="imperial"> imperial </option>
+            </select>
+
+           
+           
+            <input  type="text" name="London" id="y" placeholder="Enter City">
+            <br>
+            <input onclick="getclick()" type="submit" value="Enter" id="sub">
+       </div>
+           
+        </div>
+      <div id="show">
+        <div id="NAM">NAME</div>
+        <hr>
+        <div id="hum">DESCRIPTION</div>
+        <hr>
+          <div id="tem">VISIBILITY</div>
+          <hr>
+         <div id="WI">WIND SPEED</div>
+         <hr>
+          <div id="DI">HUMIDITY</div>
+      </div>
+       <div >
+           <h6 id="jn">This Page is design By John Nnamani</h6>
+       </div>
+            
+
+    <script src="./weatherman.js"></script>
+    </body>
+</html>
